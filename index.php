@@ -41,6 +41,7 @@
 	</header>
 	<section class="main">
 		<div class="container">
+			<div class="cloud"></div>
 			<div class="row head">
 				Тестовое задание для Junior веб-разработчика
 			</div>

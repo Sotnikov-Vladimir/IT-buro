@@ -1,6 +1,7 @@
 <?php
 class ArrayWorker {
     protected $array = array();
+    
     public function __construct()
     {
         $this->fill();
@@ -12,6 +13,7 @@ class ArrayWorker {
             $this->array[] = rand(0,100);
         }
     }
+
     protected function reindex(){
         $temp_max = max($this->array);
         $temp_min = min($this->array);
@@ -20,11 +22,9 @@ class ArrayWorker {
         $this->array[$key_min] = $temp_max;
         $this->array[$key_max] = $temp_min;
     }
+
     public function dump(){
-
-
-
-    return array_search(min($this->array), $this->array)+array_search(max($this->array), $this->array);
+        return array_search(min($this->array), $this->array)+array_search(max($this->array), $this->array);
     }
 }
 ?>

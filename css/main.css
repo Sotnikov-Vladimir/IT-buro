@@ -61,9 +61,17 @@ header{
 	padding-top: 40px;
 	padding-left: 8px;
 	font-size: 13px;
-	background: url(../img/Cloud.png) ;
-	background-size: cover;
-	padding-bottom: 40px;
+	padding-bottom: 15px;
+}
+
+.cloud {
+    background-image: url("../img/Cloud.png");
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 1000px;
+    height: 603px;
+    z-index: 2;
 }
 
 .both{
